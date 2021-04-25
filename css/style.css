@@ -1,0 +1,124 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+ 	height: 200px;
+	background-color: #ef476f;
+ 	animation: mymove 10s infinite;
+ 	font-family: 'Domine', serif !important;
+
+ 	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, 
+ 						rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, 
+						rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+ 	background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, 
+ 						rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+ 	
+  	max-width: 100%;
+}
+.container{
+	margin: 0 auto;
+}
+@keyframes mymove {
+  0% {background-color: #8a5a44;} /*coffee*/
+  25% {background-color:#c38e70;}/* antique brass*/
+  50% {background-color: #d69f7e;}/* tumbleweed*/
+  75% {background-color: #c38e70;}
+  100% {background-color: #8a5a44;}
+}
+
+
+
+.duolingo{
+	color: #05ff20;
+	font-weight: bolder;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+.sis {
+	font-style: italic;
+
+}
+label{
+	clear: both;
+}
+
+footer {
+	height: 100px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+ 	height: auto;
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 50%;
+	border-radius: 8px;
+}
+img.banner{
+	max-width: 100%;
+ 	height: auto;
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 30%;
+}
+iframe{
+	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 100%;
+ 	display: block;
+	width: 50%;
+	height: 50%;
+	border-radius: 5px;
+}
+p{
+	font-size: 120%; 
+
+}
+span{
+	font-size: 120%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1.5vw;
+  display: inline-block;
+  text-align: center;
+}
+.fa:hover{
+	opacity: 0.8;
+	border-radius: 5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+div .contact{
+	text-align: center;
+}
